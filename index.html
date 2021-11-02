@@ -6,24 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translate App</title>
     <style>
+
+    #btn-div
+    {
+        text-align: center;
+    }
+
+        h1{
+            text-align: center;
+        }
         textarea{
             width: 80%;
             height: 10rem;
             display: block;
             margin: auto;
-            border-radius: 1rem;
+            border-radius: 0.5rem;
             
         }
+        #output{
+            border:  1px solid black;
+            width: 80%;
+            height: 10rem;
+            margin: auto;
+            display: block;
+            border-radius: 0.5rem;
+        }
+        #user-input
+        {
+            text-align: center;
+            font-size: larger;
+        }
+
+        #btn-translate
+        {
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+        }
+
     </style>
 </head>
 <body>
 
-    <h1>hello!</h1>
+    <h1>translator tool</h1>
     <textarea id="txt-input"
      placeholder="enter your text in english to translate">
     </textarea>
     <br>
+
+    <div id="btn-div">
     <button id="btn-translate">Translate</button>
+    </div>
+
+    <br>
+    <div id="user-input">Output will appear here ! </div>
+    <div id="output"></div>
     <script src="app.js"></script>
     
 </body>
