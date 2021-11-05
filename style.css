@@ -1,0 +1,50 @@
+#pageHeading
+{
+    background-color: #6EE7B7;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+}
+#btn-div
+{
+    text-align: center;
+
+}
+
+    h1{
+        text-align: center;
+    }
+    textarea{
+        width: 80%;
+        height: 10rem;
+        display: block;
+        margin: auto;
+        border-radius: 0.5rem;  
+        background-color: #D1D5DB;
+    }
+    #txt.input
+    {
+      text-align: left;  
+    }
+    #output{
+        border:  1px solid black;
+        width: 80%;
+        height: 10rem;
+        margin: auto;
+        display: block;
+        border-radius: 0.5rem;
+        background-color: #D1D5DB;
+    }
+    #user-input
+    {
+        text-align: center;
+        font-size: larger;
+    }
+
+    #btn-translate
+    {
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        background-color: #FCA5A5;
+    }
