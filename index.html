@@ -9,21 +9,32 @@
 </head>
 <body>
 
-    <div id="pageHeading">
+   <nav>
+        <div id="pageHeading">
         <h1>Dothraki Translator</h1>
-    </div>
+        </div>
+    </nav>
     <textarea id="txt-input"
      placeholder="enter your text in english to translate">
     </textarea>
     <br>
 
     <div id="btn-div">
-    <button id="btn-translate">Translate</button>
+    <button id="btn-translate" style="font-size: larger;">Translate</button>
     </div>
 
     <br>
-    <div id="user-input">Output will appear here ! </div>
-    <div id="output"></div>
+    <div id="output" aria-placeholder="Output will appear here"></div>
+    <br>
+
+    <footer>
+        <div id="footer-text">
+            Are you fan of Game of thrones ? Did you know that Dothraki i actually a language ?
+            Use this app to translate your conversation into dothraki ! Enjoy with your friends.
+        
+        </div>
+    </footer>
+
     <script src="app.js"></script>
     
 </body>

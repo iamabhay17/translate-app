@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Pacifico&display=swap');
+
+
 #pageHeading
 {
     background-color: #6EE7B7;
-    border-radius: 1rem;
     padding: .5rem;
     margin-bottom: 1rem;
-    border: 1px solid black;
+    font-family: 'Pacifico', cursive;
+    font-size: 21px;
+    
+
 }
 #btn-div
 {
@@ -16,35 +22,44 @@
         text-align: center;
     }
     textarea{
-        width: 80%;
-        height: 10rem;
+        width: 60%;
+        height: 12rem;
         display: block;
-        margin: auto;
-        border-radius: 0.5rem;  
-        background-color: #D1D5DB;
+        margin: auto; 
+        background-color: #2eddcf;
+        font-family: 'Pacifico', cursive;
+        font-size: 21px;
+        color: rgb(104, 97, 104);
+        border: 0px;
     }
     #txt.input
     {
       text-align: left;  
     }
     #output{
-        border:  1px solid black;
-        width: 80%;
-        height: 10rem;
-        margin: auto;
+        width: 60%;
+        height: 12rem;
         display: block;
-        border-radius: 0.5rem;
-        background-color: #D1D5DB;
+        margin: auto; 
+        background-color: #2eddcf;
+        font-family: 'Pacifico', cursive;
+        font-size: 21px;
+        color: rgb(104, 97, 104);
     }
-    #user-input
-    {
-        text-align: center;
-        font-size: larger;
-    }
+   
 
     #btn-translate
     {
         padding: 0.5rem;
         border-radius: 0.5rem;
         background-color: #FCA5A5;
+    }
+    #footer-text
+    {
+        background-color: #6EE7B7;
+        font-family: 'Pacifico', cursive;
+        text-align: center;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        font-size: 16px;
     }
