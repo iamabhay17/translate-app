@@ -40,10 +40,11 @@ main {
     textarea{
         min-height: 10vh;
         max-height: 20vh;
+        font-family: 'Kalam', cursive;
         width: 50%;
         display: block;
         margin: auto;
-        font-size: 21px;
+        
         border: 1px solid black;
     }
     #txt.input
@@ -52,7 +53,6 @@ main {
     }
     #output{
       
-        font-size: 21px;
         box-sizing: border-box;
         width: 100%;
         min-height: 10vh;
