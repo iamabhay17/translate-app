@@ -1,5 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width : 600px;
+}
 
 
 #pageHeading
@@ -7,7 +23,7 @@
     background-color: #6EE7B7;
     padding: .5rem;
     margin-bottom: 1rem;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Kalam', cursive;
     font-size: 21px;
     
 
@@ -22,44 +38,47 @@
         text-align: center;
     }
     textarea{
-        width: 60%;
-        height: 12rem;
+        min-height: 10vh;
+        max-height: 20vh;
+        width: 50%;
         display: block;
-        margin: auto; 
-        background-color: #2eddcf;
-        font-family: 'Pacifico', cursive;
+        margin: auto;
         font-size: 21px;
-        color: rgb(104, 97, 104);
-        border: 0px;
+        border: 1px solid black;
     }
     #txt.input
     {
       text-align: left;  
     }
     #output{
-        width: 60%;
-        height: 12rem;
-        display: block;
-        margin: auto; 
-        background-color: #2eddcf;
-        font-family: 'Pacifico', cursive;
+      
         font-size: 21px;
-        color: rgb(104, 97, 104);
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 10vh;
+        max-height: 20vh;
+        overflow:scroll;
+       border: 1px solid black;
     }
    
 
     #btn-translate
     {
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        background-color: #FCA5A5;
+        
+            background-color: #6EE7B7;
+            border: none;
+            margin: 1rem 0rem;
+            padding: 1rem 2rem;
+            font-family: 'Kalam', cursive;
+            font-size: large;
+        
     }
-    #footer-text
+    footer
     {
         background-color: #6EE7B7;
-        font-family: 'Pacifico', cursive;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 1rem;
         text-align: center;
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-        font-size: 16px;
     }
